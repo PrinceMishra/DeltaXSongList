@@ -1,0 +1,94 @@
+
+.body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #000000;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .columnSong {
+    width: 20%;
+    padding: 10px 25px;
+    border-right: 1px solid black;
+  }
+  .columnSong h2{
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:large;
+  }
+  .columnSong h4{
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:large;
+  }
+  .columnSong img{
+    height:100px;
+    width:100px;
+   }
+  .columnArtist {
+    width: 33%;
+    padding: 10px 25px;
+    border-right: 1px solid black;
+  }
+  .columnArtist h2{
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:large;
+  }
+  .columnArtist h4{
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:large;
+  }
+
+  /* Clear floats after the columns */
+ .rowSong{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid #0000003b;
+ }
+ 
+ .rowArtist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid #0000003b;
+ }
+.addSong
+{
+  width:80%;
+  margin: auto;
+  margin-top:10px;
+}
+.songSubmit{
+  height: 100px;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#content
+{
+  opacity:0;
+}
+#popupForm
+{
+  opacity:0;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%, 5%);
+  z-index: 9;
+}
+.btnCont
+{
+  display: flex;
+}
