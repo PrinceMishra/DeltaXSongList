@@ -1,14 +1,16 @@
-# SongListApplication
-It's an assignment like spotify application, it's a song listing application .
+# Mello Music
+It's a song application like spotify application, it's a song application .
 
  ## (Kindly Read the Instructions.md File)
  
  ## Functionalities:
 
 1. Login/ Signup.
-2. Display Top 10 Artists
-3. Display Top 10 Songs
-4. Update user details / Logout.
+2. Playing of Songs 
+3. Make PlayList
+4. Display Top 10 Artists
+5. Display Top 10 Songs
+6. Update user details / Logout.
 
 
 
